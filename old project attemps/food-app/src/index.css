@@ -1,0 +1,10 @@
+body {
+  background-image: url('./img/login_background.jpg');
+  background-size: 100%;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

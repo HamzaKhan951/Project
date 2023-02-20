@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="./components/get_input_data.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <!-- <script>
+        get_info().then(data => {
+            document.getElementsByClassName('data')[0].innerHTML = JSON.stringify(data);
+
+
+        })
+    </script> -->
+</head>
+
+<body>
+    <h1 class='h1'>
+        Recipe Generator
+    </h1>
+
+    <div class=ingredients_box>
+        <h2 class=h2>Ingredient List</h2>
+        <div class="ingredients_list">
+
+            <label>Ingredient 1</label> <br />
+            <input type="text" class="ingredient" value="" />
+            <br />
+            <br />
+
+            <label>Ingredient 2</label> <br />
+            <input type="text" class="ingredient" value=""/>
+            <br />
+            <br />
+
+
+            <label>Ingredient 3</label> <br />
+            <input type="text" class="ingredient" value=""/>
+            <br />
+            <br />
+
+
+            <label>Ingredient 4</label> <br />
+            <input type="text" class="ingredient" value=""/>
+            <br />
+            <br />
+
+
+            <label>Ingredient 5</label> <br />
+            <input type="text" class="ingredient" value=""/>
+            <br />
+            <br />
+
+            <center> <button class="btn" onclick="get_input_data()">
+                    Submit
+                </button></center>
+
+        </div>
+    </div>
+
+    <div class="recipes_table">
+        <button class="recommended_recipes">Recommended Recipes</button>
+        <button class="view_fav">View Favourite Recipes</button>
+
+        <div class="view_recipe">
+            <!-- <p class='data'>
+            </p> -->
+            Recipe 1
+            <button  onclick="add_to_fav">
+                    Add to Fav
+                </button>
+        </div>
+        <div class="view_recipe">
+            Recipe 1
+           <button  onclick="add_to_fav">
+                    Add to Fav
+                </button>
+        </div>
+        
+    </div>
+</body>
+
+</html>

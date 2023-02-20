@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 20, 2021, 1:25:31 AM
+    Author     : Hamza
+*/
+
+@import url('http://fonts.cdnfonts.com/css/unispace');
+body {
+    background-image: url('./img/login_background.jpg');
+    background-size: 100%;
+
+}
+.Container{
+
+    margin-bottom: 1px;
+}
+h1{
+    font-family: 'Unispace', sans-serif;
+}
+
+.App {
+    width: 50%;
+
+
+    margin-left: 250px;
+    margin-top: 100px;
+    padding: 20px;
+    border: 1px solid rgb(179, 139, 79);
+    background-color: antiquewhite;
+    border-radius: 10px;
+    opacity: 0.8;
+    width: 30%;
+}
+.form{
+    opacity: 1.0;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+
+
+}
+.input_field{
+    display: flex;
+    flex-direction: row;
+}
+
+.input{
+    width: 80%;
+    margin-top: 20px;
+
+}
+
+
+.logo{
+    width: 20px;
+    height: 20px;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.button {
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #327234; /* Green */
+    color: white;
+}
